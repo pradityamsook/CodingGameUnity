@@ -3,19 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package floppydot;
+package flappydotgame;
 
 /**
  *
  * @author User
  */
-public class FloppyDot {
+public class FlappyDotGame extends BasicGame{
+    public FlappyDotGame (String title){
+        super(title);
+    }
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    
     
 }
